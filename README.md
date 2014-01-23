@@ -12,7 +12,8 @@ This is an example [node.js](http://nodejs.org/) project, written in
 
 You need both CoffeeScript and express:
 
-	npm install -g coffee-script npm install -g express
+	npm install -g coffee-script
+	npm install -g express
 
 Then you can install the dependency node modules:
 
