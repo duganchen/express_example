@@ -1,7 +1,7 @@
 Express Example ===============
 
 This is an example [node.js](http://nodejs.org/) project, written in
-[CoffeeScript](http://coffeescript.org/) and using:
+[CoffeeScript](http://coffeescript.org/) and demonstrating integration between:
 
 * [Express](http://expressjs.com/)
 * [Socket.IO](http://socket.io/)
