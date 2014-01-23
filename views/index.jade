@@ -11,8 +11,9 @@ html(data-ng-app='Notifications')
           h1 Notifications
 
           div(data-ng-controller='NotificationsController')
-            div(data-alert data-ng-repeat='notification in notifications' data-type='notification.type' data-close='close($index)' class='ng-cloak')
-              {{notification.msg}}
+            div(data-notifications data-server='#{server}')
+              div(data-alert data-ng-repeat='notification in notifications' data-type='notification.type' data-close='close($index)' class='ng-cloak')
+                | {{ notification.msg }}
 
         script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.min.js')
         script(src='//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.10.0/ui-bootstrap-tpls.js')

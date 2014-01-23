@@ -5,15 +5,16 @@ socket_io = require "socket.io"
 
 app = express()
 app.set "view engine", "jade"
-app.use express.static (path.join __dirname, 'static')
-
-app.get "/", (req, res) ->
-    res.render 'index', title: 'Express'
-    return
+app.use express.static (path.join __dirname, "static")
 
 server = http.createServer app
 io = socket_io.listen server
 
+app.get "/", (req, res) ->
+    address = server.address().address
+    port = server.address().port
+    res.render "index", server: "#{address}:#{port}"
+    return
 
 io.sockets.on "connection", (socket) ->
     socket.emit "message", "Welcome to the page"
