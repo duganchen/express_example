@@ -1,5 +1,4 @@
-Express Example
-===============
+Express Example ===============
 
 This is an example [node.js](http://nodejs.org/) project, written in
 [CoffeeScript](http://coffeescript.org/) and using:
@@ -31,8 +30,9 @@ Every five seconds, the server uses Socket.IO to push the current time to the
 client. The client, on receiving the time, adds it to the page in the form of a
 new Bootstrap Alert widget.
 
-Jade is a good choice for the template engine, because its syntax doesn't get in
-the way of Angular's.
+Jade is a good choice for the template engine, because its syntax doesn't get
+in the way of Angular's. It doesn't use double curly braces for variable
+expansion.
 
 I've focused on making this as minimal as possible, while still demonstrating
 the full stack.
