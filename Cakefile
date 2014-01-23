@@ -12,5 +12,5 @@ build = (callback) ->
   coffee.on 'exit', (code) ->
     callback?() if code is 0
 
-task 'build', 'Build static/ from coffee/', ->
+task 'build', 'Build client-side JavaScript files.', ->
   build()
