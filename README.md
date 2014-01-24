@@ -1,7 +1,7 @@
 Express Example ===============
 
 This is an example [node.js](http://nodejs.org/) project, written in
-[CoffeeScript](http://coffeescript.org/) and demonstrating integration between:
+[CoffeeScript](http://coffeescript.org/) and demonstrating how to integrate:
 
 * [Express](http://expressjs.com/)
 * [Socket.IO](http://socket.io/)
@@ -10,7 +10,7 @@ This is an example [node.js](http://nodejs.org/) project, written in
 * [UI Bootstrap](http://angular-ui.github.io/bootstrap/) (from angular-ui)
 * [Jade](http://jade-lang.com/)
 
-You need both CoffeeScript and express:
+You need both CoffeeScript and Express:
 
 	npm install -g coffee-script
 	npm install -g express
