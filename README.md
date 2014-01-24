@@ -31,9 +31,9 @@ Every five seconds, the server uses Socket.IO to push the current time to the
 client. The client, on receiving the time, adds it to the page in the form of a
 new Bootstrap Alert widget.
 
-Jade is a good choice for the template engine, because its syntax doesn't get
-in the way of Angular's. It doesn't use double curly braces for variable
-expansion.
+Jade is a good choice for the template engine, because it doesn't use double
+curly braces for variable expansion. That means its syntax doesn't get in the
+way of Angular's.
 
 I've focused on making this as minimal as possible, while still demonstrating
 the full stack.
