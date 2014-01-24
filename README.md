@@ -1,4 +1,5 @@
-Express Example ===============
+Express Example
+===============
 
 This is an example [node.js](http://nodejs.org/) project, written in
 [CoffeeScript](http://coffeescript.org/) and demonstrating how to integrate:
